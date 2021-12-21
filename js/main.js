@@ -4,4 +4,8 @@ $(function(){
         nextArrow: '<img class="slider__arrow-right" src="../img/slider-right.png" alt="arrow">',
     });
 
+    $('.burger').on('click',function(){
+       $('.menu__list').toggleClass('active');
+    })
+
 });
